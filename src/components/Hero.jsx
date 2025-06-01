@@ -93,7 +93,7 @@ const Hero = () => {
             variants={childVariants}
           >
             Saya adalah pengembang web yang berpengalaman dalam pengembangan frontend dan backend.
-            Terampil menggunakan React, Tailwind CSS untuk antarmuka pengguna, dan Spring Boot serta
+            Terampil menggunakan React, Tailwind CSS untuk antarmuka pengguna, dan Java Spring Boot serta
             database untuk membangun backend yang efisien dan aman. Selalu bersemangat untuk
             menjelajahi alat dan framework baru serta meningkatkan keterampilan saya dalam industri
             yang terus berkembang.

@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 import { motion } from "framer-motion";
 import { RiVercelLine, RiTailwindCssFill, RiReactjsLine } from "react-icons/ri";
-import { SiThymeleaf, SiMysql, SiJavascript, SiC, SiSwagger } from "react-icons/si";
+import { SiThymeleaf, SiMysql, SiJavascript, SiC, SiSwagger, SiNetlify } from "react-icons/si";
 import { BiLogoSpringBoot, BiLogoPostgresql } from "react-icons/bi";
 import { FaJava } from "react-icons/fa";
 
@@ -37,6 +37,7 @@ const techs = [
   { icon: <RiReactjsLine />, name: "React", color: "#61DAFB" },
   { icon: <RiTailwindCssFill />, name: "Tailwind CSS", color: "#06B6D4" },
   { icon: <RiVercelLine />, name: "Vercel", color: "#ffffff" },
+  { icon: <SiNetlify />, name: "Netlify", color: "#00AD9F" },
   { icon: <BiLogoPostgresql />, name: "PostgreSQL", color: "#336791" },
   { icon: <SiMysql />, name: "MySQL", color: "#00758F" },
   { icon: <SiJavascript />, name: "JavaScript", color: "#F0DB4F" },

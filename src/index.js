@@ -4,7 +4,7 @@ import music from "./assets/musik.png";
 import swegger from "./assets/swegger.png";
 export const projects = [
     {
-      title: "HayMart - REST API untuk POS Kasir",
+      title: "HayMart - REST API",
       image: swegger,
       description:
         "HayMart POS API adalah RESTful backend berbasis Spring Boot 3.4.4 untuk mendukung aplikasi kasir (POS) modern. Menyediakan autentikasi JWT, manajemen kasir & produk, transaksi pembelian, laporan penjualan, dan dokumentasi Swagger. Cocok untuk minimarket, apotek, atau toko retail lainnya.",
@@ -31,7 +31,7 @@ export const projects = [
       visit: "",
     },
     {
-      title: "NONTON YUK",
+      title: "Nonton Yuk",
       image: c,
       description:
         "Aplikasi terminal sederhana berbasis C yang memungkinkan pengguna menonton film berdasarkan kategori. Menyediakan daftar film gratis dan berbayar, serta navigasi menu berbasis teks untuk memudahkan penjelajahan film yang tersedia.",

@@ -60,7 +60,7 @@ const Header = () => {
         animate="animate"
       >
         <motion.a
-          href="https://www.linkedin.com/in/ahmad-wahyudi-b09377313/"
+          href="https://www.linkedin.com/in/ahmad-wahyudi-tanjung-b09377313/"
           target="_blank"
           rel="noopener noreferrer"
           variants={iconVariants}
