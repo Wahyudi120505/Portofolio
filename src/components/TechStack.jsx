@@ -31,7 +31,7 @@ const techVariants = {
 };
 
 const techs = [
-  { icon: <FaJava />, name: "Java", color: "#6DB33F" },
+  { icon: <FaJava />, name: "Java", color: "#F1502F" },
   { icon: <BiLogoSpringBoot />, name: "Spring Boot", color: "#6DB33F" },
   { icon: <SiThymeleaf />, name: "Thymeleaf", color: "#005F0F" },
   { icon: <RiReactjsLine />, name: "React", color: "#61DAFB" },
