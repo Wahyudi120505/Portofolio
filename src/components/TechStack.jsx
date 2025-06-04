@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 import { motion } from "framer-motion";
 import { RiVercelLine, RiTailwindCssFill, RiReactjsLine } from "react-icons/ri";
-import { SiThymeleaf, SiMysql, SiJavascript, SiC, SiSwagger, SiNetlify } from "react-icons/si";
+import { SiThymeleaf, SiMysql, SiJavascript, SiC, SiSwagger, SiNetlify,  SiGit, SiGithub} from "react-icons/si";
 import { BiLogoSpringBoot, BiLogoPostgresql } from "react-icons/bi";
 import { FaJava } from "react-icons/fa";
 
@@ -43,6 +43,8 @@ const techs = [
   { icon: <SiJavascript />, name: "JavaScript", color: "#F0DB4F" },
   { icon: <SiC />, name: "C", color: "#A8B9CC" },
   { icon: <SiSwagger />, name: "Swagger", color: "#6BA539" },
+  { icon: <SiGit />, name: "Git", color: "#F1502F" },
+  { icon: <SiGithub />, name: "GitHub", color: "#fff" },
 ];
 
 const TechStack = () => {
