@@ -2,7 +2,33 @@ import guitar from "./assets/guitar.png";
 import c from "./assets/c.png";
 import music from "./assets/musik.png";
 import swegger from "./assets/swegger.png";
+import fullstack from "./assets/java-react.png";
 export const projects = [
+      {
+      title: "TPA Al-Hidayah - Sistem Manajemen TPA Digital",
+      image: fullstack,
+      description:
+        "Aplikasi fullstack untuk digitalisasi kegiatan TPA seperti manajemen santri, absensi, setoran hafalan, nilai ujian, pembayaran SPP, hingga cetak rapor dalam bentuk PDF. Terdapat dua peran pengguna: Admin yang mengelola seluruh data, dan Orang Tua yang memantau perkembangan anak serta mengunduh rapor. Sistem ini didukung oleh autentikasi berbasis JWT untuk keamanan akses.",
+      tech: [
+        "Java",
+        "SpringBoot",
+        "MySQL",
+        "JPA/Hibernate",
+        "Swagger",
+        "iText / JasperReports",
+        "Spring Security + JWT",
+        "React",
+        "Tailwind CSS",
+        "Framer Motion",
+        "JS Cookie",
+        "React Router DOM",
+        "Lucide React Icons",
+        "React Select",
+        "Vite"
+      ],
+      github: "https://github.com/Wahyudi120505/tpa-al-hidayah",
+      visit: ""
+    },
     {
       title: "HayMart - REST API",
       image: swegger,
