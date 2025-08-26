@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
 import { motion } from "framer-motion";
-import profile from "../assets/profile.jpg";
+import profile from "../assets/profile.png";
 
 // Animation variants for Hero section
 const heroVariants = {
