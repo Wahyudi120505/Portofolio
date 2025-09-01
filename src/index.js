@@ -3,7 +3,16 @@ import c from "./assets/c.png";
 import music from "./assets/musik.png";
 import swegger from "./assets/swegger.png";
 import fullstack from "./assets/java-react.png";
+import snapMart from "./assets/snapmart.png";
 export const projects = [
+  {
+      title: "SnapMart - FullStack",
+      image: snapMart,
+      description:
+        "SnapMart POS adalah aplikasi fullstack berbasis Java & React yang dirancang untuk mendukung sistem kasir (POS) modern. Aplikasi ini memiliki fitur autentikasi JWT, manajemen kasir & produk, transaksi penjualan, laporan penjualan, hingga ai asisten.",
+      tech: ["React", "Tailwind CSS", "Framer Motion", "React Router DOM", "Vite", "JSX", "JS Cookie", "Lucide React Icons", "Java", "SpringBoot", "MySQL", "Swegger", "Spring Security + JWT", "Spring MailSender", "JPA/Hibernate", "Apache POI", "Apache PDFBox", "OpenAI API", "Docker"],
+      github: "https://github.com/Wahyudi120505/SnapMart---FullStack"
+  },
       {
       title: "TPA Al-Hidayah - FullStack",
       image: fullstack,

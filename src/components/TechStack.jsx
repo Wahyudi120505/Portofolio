@@ -1,7 +1,16 @@
 /* eslint-disable no-unused-vars */
 import { motion } from "framer-motion";
 import { RiVercelLine, RiTailwindCssFill, RiReactjsLine } from "react-icons/ri";
-import { SiThymeleaf, SiMysql, SiJavascript, SiC, SiSwagger, SiNetlify,  SiGit, SiGithub} from "react-icons/si";
+import {
+  SiThymeleaf,
+  SiMysql,
+  SiJavascript,
+  SiC,
+  SiSwagger,
+  SiNetlify,
+  SiGit,
+  SiGithub,
+} from "react-icons/si";
 import { BiLogoSpringBoot, BiLogoPostgresql } from "react-icons/bi";
 import { FaJava } from "react-icons/fa";
 
@@ -32,17 +41,17 @@ const techVariants = {
 
 const techs = [
   { icon: <FaJava />, name: "Java", color: "#F1502F" },
-  { icon: <BiLogoSpringBoot />, name: "Spring Boot", color: "#6DB33F" },
+  { icon: <SiC />, name: "C", color: "#A8B9CC" },
+  { icon: <SiJavascript />, name: "JavaScript", color: "#F0DB4F" },
+  { icon: <SiSwagger />, name: "Swagger", color: "#6BA539" },
   { icon: <SiThymeleaf />, name: "Thymeleaf", color: "#005F0F" },
+  { icon: <BiLogoSpringBoot />, name: "Spring Boot", color: "#6DB33F" },
   { icon: <RiReactjsLine />, name: "React", color: "#61DAFB" },
-  { icon: <RiTailwindCssFill />, name: "Tailwind CSS", color: "#06B6D4" },
+  { icon: <RiTailwindCssFill />, name: "Tailwind CS", color: "#06B6D4" },
   { icon: <RiVercelLine />, name: "Vercel", color: "#ffffff" },
   { icon: <SiNetlify />, name: "Netlify", color: "#00AD9F" },
   { icon: <BiLogoPostgresql />, name: "PostgreSQL", color: "#336791" },
   { icon: <SiMysql />, name: "MySQL", color: "#00758F" },
-  { icon: <SiJavascript />, name: "JavaScript", color: "#F0DB4F" },
-  { icon: <SiC />, name: "C", color: "#A8B9CC" },
-  { icon: <SiSwagger />, name: "Swagger", color: "#6BA539" },
   { icon: <SiGit />, name: "Git", color: "#F1502F" },
   { icon: <SiGithub />, name: "GitHub", color: "#fff" },
 ];
@@ -92,7 +101,9 @@ const TechStack = () => {
         variants={techVariants}
         className="text-center text-sm sm:text-base text-neutral-400 max-w-2xl mx-auto mb-8"
       >
-        My expertise spans a wide range of technologies, from frontend frameworks to backend systems and databases, enabling me to build robust and scalable web applications.
+        My expertise spans a wide range of technologies, from frontend
+        frameworks to backend systems and databases, enabling me to build robust
+        and scalable web applications.
       </motion.p>
 
       <div className="flex flex-wrap items-center justify-center gap-4 sm:gap-6">
