@@ -3,7 +3,7 @@ import c from "./assets/c.png";
 import music from "./assets/musik.png";
 import swegger from "./assets/swegger.png";
 import fullstack from "./assets/java-react.png";
-import snapMart from "./assets/snapmart.png";
+import snapMart from "./assets/snapMart.png";
 export const projects = [
   {
       title: "SnapMart - FullStack",
